@@ -1,0 +1,21 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+
+{% if current_user.is_authenticated() %}
+<h1>Content Management System</h1>
+<p>
+  You are logged in as {{ current_user.email }}
+</p>
+<p>
+  Use this interface to manage content on the site.
+</p>
+<p>
+  Return to the <a href="/">front-end site</a>.
+</p>
+{% else %}
+<p>
+  Please login with your staff account through the <a href="/">front-end site</a><br />
+  and return here through the user menu in your navbar.
+</p>
+{% endif %}
+{% endblock %}
