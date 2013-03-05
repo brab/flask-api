@@ -15,4 +15,4 @@ Use this project as a starting point for your Flask RESTful API.
 1. `$ cd app`
 1. `$ foreman start -f Procfile.local`
 1. Navigate to 192.168.33.10:5000 to test the api
-1. Navigate to 192.168.33.10:5000/api to test the admin site
+1. Navigate to 192.168.33.10:5000/admin to test the admin site
